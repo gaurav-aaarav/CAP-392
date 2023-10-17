@@ -1,0 +1,5 @@
+HADDOP FS LS
+hadoop fs -copy form local '/home/traning/Desktop/GAURAV
+LOCALHOST:50070
+USER TRAINNING 
+GAURAV

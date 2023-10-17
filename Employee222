@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class Employee
+{
+	public static void main(string arg[])
+	{
+		double gs,it,pt,pf,netsalary;
+		Sacnnner sc=new Scanner(System.in);
+		System.out.println("Enter Gross salary");
+		gs=sc.nextDouble();
+		System.out.println("Enter Income");
+		it=sc.nextDouble();
+		System.out.println("Enter Professional");
+		pt=sc.nextDouble();
+		System.out.println("Enter the provident fund");
+		pf=sc.nextDouble();
+		pt=sc

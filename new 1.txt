@@ -1,0 +1,27 @@
+/*defining the use case :type of file
+choose editing tool
+integrate with cloud storage */
+
+
+
+Bucketing{
+
+create table A1(id int,name string,branch string)
+row format delimited
+fields terminated by ','
+lines terminated by '\n'
+stored as textfiles;
+*load data local inpath '/home/training/Desktop/A1
+overwrite into table A1;
+
+
+create table A2(id int,name string,branch string)
+clustered by (branch )into  3 bucket
+row format delimited
+fields terminated by','
+lines terminated by '\n'
+stored as a textfiles;
+  
+  
+  enable hive
+  set hive.infos bucketing
